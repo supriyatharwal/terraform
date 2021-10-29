@@ -3,7 +3,7 @@ resource "aws_instance" "myawsserver" {
   instance_type = "t2.nano"
 
   tags = {
-    Name = "Gagandeep-aws-ec2-instance-v3"
+    Name = "Gagandeep-aws-ec2-instance-v4"
     Env = "Dev"
   }
 }
