@@ -4,7 +4,7 @@ resource "aws_instance" "myawsserver" {
 
   tags = {
     Name = "supriya-aws-ec2-instance-v1"
-    Env = "Dev"
+    Env = "Test"
   }
 }
 
